@@ -16,10 +16,13 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
-  <dependencyManagement>
     <dependencies>
-
+      <dependency>
+        <groupId>cglib</groupId>
+        <artifactId>cglib-sample</artifactId>
+        <version>3.2.5</version>
+      </dependency>
   </dependencies>
-  </dependencyManagement>
+
 
 </project>
